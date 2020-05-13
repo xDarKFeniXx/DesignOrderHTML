@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@page {
+  margin: 0;
+}
+
+body {
+  background-color: grey;
+}
+
+.papperA4 {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 209mm;
+  height: 296mm;
+  padding: 5mm 5mm 5mm 15mm;
+  text-align: center;
+}
+
+.papperA4_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.papperA4_content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  background-color: green;
+  width: 189mm;
+  margin: 5mm 0;
+  height: 223mm;
+}
+
+.papperA4_header {
+  width: 189mm;
+  font-size: 10pt;
+}
+
+.papperA4_header .header_table {
+  width: 189mm;
+  border-collapse: collapse;
+  table-layout: fixed;
+  overflow: hidden;
+}
+
+.papperA4_header .header_table .header_table_firstrow {
+  height: 5mm;
+}
+
+.papperA4_header .header_table .header_table_secondrow {
+  border: 0.5mm solid black;
+  height: 15mm;
+}
+
+.papperA4_header .header_table .header_table_secondrow .header_table_firstcolumn {
+  text-align: left;
+}
+
+.papperA4_header .header_table .header_table_thirdrow {
+  height: 15mm;
+}
+
+.papperA4_header .header_table .header_table_fourthrow {
+  height: 5mm;
+}
+
+.papperA4_header .header_table .header_table_firstcolumn {
+  border: 0.5mm solid black;
+  width: 59.71429mm;
+}
+
+.papperA4_header .header_table .header_table_secondcolumn {
+  border: 0.5mm solid black;
+  width: 15.92381mm;
+}
+
+.papperA4_header .header_table .header_table_thirdcolumn {
+  border: 0.5mm solid black;
+  width: 113.45714mm;
+}
+
+.papperA4_footer {
+  width: 190mm;
+  font-size: 10pt;
+}
+
+.footer_table {
+  width: 189mm;
+  border-collapse: collapse;
+  table-layout: fixed;
+  overflow: hidden;
+}
+
+.footer_table .footer_firstcolumn {
+  border: 0.5mm solid black;
+  width: 20mm;
+}
+
+.footer_table .footer_secondcolumn {
+  border: 0.5mm solid black;
+  width: 72mm;
+}
+
+.footer_table .footer_thirdcolumn {
+  border: 0.5mm solid black;
+  width: 40mm;
+}
+
+.footer_table .footer_fourthcolumn {
+  border: 0.5mm solid black;
+  width: 38mm;
+}
+
+.footer_table .footer_fivescolumn {
+  border: 0.5mm solid black;
+  width: 20mm;
+}
+
+.footer_table .footer_secondtrow {
+  height: 5mm;
+}
+
+.footer_table .footer_firstrow {
+  height: 5mm;
+}
